@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correção Monetária</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Correção Monetária</h1>
+        <form id="correctionForm">
+            <label for="amount">Valor (R$):</label>
+            <input type="number" id="amount" required>
+
+            <label for="startYear">Ano Inicial:</label>
+            <input type="number" id="startYear" required>
+
+            <label for="endYear">Ano Final:</label>
+            <input type="number" id="endYear" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
